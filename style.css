@@ -49,19 +49,18 @@ svg {
 
 
 .button {
-  z-index: 3 !important;
-  background-color: #8DC9FF;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+        display: inline-block;
+        background-color: #8DC9FF;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+        font-size: 28px;
+        padding: 15px 32px;
+        transition: all 0.5s;
+        cursor: pointer;
   font-size: 16px;
-  border-radius: 5px;
-  align-items: center;
-  position: absolute;
-  display:block;
+  margin: 4px 2px;
+        text-decoration: none;
 }
 
 .download {
