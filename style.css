@@ -16,6 +16,12 @@ span {
   text-align: center;
 }
 
+.fot {
+    font-weight: 200;
+  font-size: 1cm;
+  text-align: center;
+}
+
 h1 {
   font-weight: 900;
   font-size: 2cm;
@@ -82,4 +88,10 @@ svg {
   content: "";
   display: table;
   clear: both;
+}
+
+.container {
+    width:960px;
+    margin: 0 auto;
+    text-align:left;
 }
