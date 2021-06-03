@@ -45,7 +45,7 @@ svg {
 
 .button {
   z-index: 3 !important;
-  background-color: #0099ff;
+  background-color: #FF78A9;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -56,10 +56,6 @@ svg {
   border-radius: 5px;
   align-items: center;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
 }
 
 .download {
@@ -91,7 +87,13 @@ svg {
 }
 
 .container {
-    width: 960px;
+    padding-top: 30%;
     margin: 0 auto;
     text-align:left;
+}
+
+.con {
+  padding: 0;
+  padding-top: 50%;
+  text-align: center;
 }
