@@ -61,10 +61,11 @@ svg {
   border-radius: 5px;
   align-items: center;
   position: absolute;
+  display:block;
 }
 
 .download {
-  float: left;
+  float: center !important;
   width: 70%;
   padding: 10px;
   height: 24cm;
@@ -75,7 +76,7 @@ svg {
 }
 
 .feature {
-  float: right;
+  float: center;
   width: 30%;
   padding: 10px;
   background: #0b0b0f;
