@@ -10,8 +10,14 @@ html {
   font-weight: 400;
 }
 
+span {
+    font-weight: 900;
+  font-size: 2cm;
+  text-align: center;
+}
+
 h1 {
-  font-weight: 600;
+  font-weight: 900;
   font-size: 2cm;
   text-align: center;
 }
