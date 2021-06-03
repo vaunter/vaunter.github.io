@@ -78,6 +78,7 @@ svg {
     height: 24cm;
   text-align: center;
   align-items: center;
+  top: 0px;
 }
 
 .row:after {
@@ -92,8 +93,11 @@ svg {
     text-align:left;
 }
 
-.con {
-  padding: 0;
-  padding-top: 50%;
-  text-align: center;
+.containerTwo {
+    padding-top: 300px;
+    padding-right: 100px;
+}
+
+.cn {
+  
 }
