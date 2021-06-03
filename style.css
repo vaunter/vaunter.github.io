@@ -4,15 +4,16 @@ html {
 }
 
 * {
+    margin: 0; padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
+  font-weight: 400;
 }
 
 h1 {
   font-weight: 600;
   font-size: 2cm;
   text-align: center;
-    padding: 0;
-  margin: 0;
 }
 
 p {
@@ -42,8 +43,6 @@ svg {
   font-size: 16px;
   border-radius: 5px;
   align-items: center;
-  
-  margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -53,17 +52,24 @@ svg {
 
 .download {
   float: left;
-  width: 50%;
+  width: 70%;
   padding: 10px;
-  background-color: #15285c;
+  background: #060608;
+  height: 24cm;
+  text-align: center;
+  align-items: center;
+    margin: auto;
+
 }
 
 .feature {
   float: right;
-  width: 50%;
+  width: 30%;
   padding: 10px;
-
-  
+  background: #0b0b0f;
+    height: 24cm;
+  text-align: center;
+  align-items: center;
 }
 
 .row:after {
